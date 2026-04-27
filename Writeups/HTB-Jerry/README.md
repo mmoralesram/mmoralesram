@@ -147,9 +147,9 @@ Para ejecutar el payload, accedemos a la ruta correspondiente desde el navegador
 ![Shell](Images/tomcat_shell.png)
 
 
-Tras cargar la ruta, recibimos una sesión en NetCat.
+Tras cargar la ruta, recibimos una reverse shell en nuestro listener de Netcat.
 
-![Pwnd](Images/tomcat_conexion.png)
+![NT AUTHORITY](Images/tomcat_conexion.png)
 
 ---
 
