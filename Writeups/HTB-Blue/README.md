@@ -5,6 +5,7 @@
 - **Plataforma:** Hack The Box
 - **Dificultad:** Easy 
 - **Sistema:** Windows
+- **IP Objetivo:** 10.129.48.147
 - **Entorno:** SMB / Windows
 - **Vector principal:** MS17-010 / EternalBlue
 
@@ -39,7 +40,7 @@ sudo nmap -p- --open --min-rate 5000 -n -Pn 10.129.48.147 -oG allPorts
 Posteriormente, lanzamos un escaneo más detallado sobre los puertos detectados.
 
 ```bash
-nmap -p 135,139,445 -sCV 10.129.47.148 -oN target
+nmap -p 135,139,445 -sCV 10.129.48.147 -oN target
 ```
 
 ```bash
