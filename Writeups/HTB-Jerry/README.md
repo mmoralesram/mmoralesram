@@ -55,7 +55,7 @@ El puerto `8080` mostraba un servicio web correspondiente a **Apache Tomcat**.
 
 Al acceder desde el navegador:
 
-    http://10.10.10.95:8080
+    http://10.129.136.9:8080
 
 se cargaba la página por defecto de Apache Tomcat.
 
@@ -72,7 +72,7 @@ Desde la página principal de Apache Tomcat se identifican varias rutas interesa
 
 Al acceder a `/manager/html`, el servidor solicita autenticación HTTP Basic.
 
-    http://10.10.10.95:8080/manager/html
+    http://10.129.136.9:8080/manager/html
 
 
 Este punto es especialmente relevante, ya que Tomcat Manager permite desplegar aplicaciones web en formato `.war`. Si se consigue acceso al panel con un usuario autorizado, es posible subir una aplicación maliciosa y lograr ejecución remota de comandos.
@@ -143,7 +143,7 @@ Una vez desplegada la aplicación, Tomcat la muestra en el listado de aplicacion
 
 Para ejecutar el payload, accedemos a la ruta correspondiente desde el navegador:
 
-    http://10.10.10.95:8080/shell/
+    http://10.129.136.9:8080/shell/
 ![Shell](Images/tomcat_shell.png)
 
 
