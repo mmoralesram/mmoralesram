@@ -28,6 +28,7 @@ Actualmente preparándome para la certificación eJPT.
 
 - [HTB - Active](./Writeups/HTB-Active/README.md)
 - [HTB - Armageddon](./Writeups/HTB-Armageddon/README.md)
+- [HTB - Blue](./Writeups/HTB-Blue/README.md)
 
 ## 🎯 Enfoque actual
 
