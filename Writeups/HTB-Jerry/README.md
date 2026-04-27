@@ -79,7 +79,7 @@ Este punto es especialmente relevante, ya que Tomcat Manager permite desplegar a
 
 ---
 
-## Acceso a Tomcat Manager
+### Acceso a Tomcat Manager
 
 Durante la fase de enumeración, se probaron credenciales comunes y por defecto de Apache Tomcat.
 
@@ -100,7 +100,7 @@ Este acceso supone un riesgo crítico, ya que el panel permite desplegar aplicac
 
 ---
 
-## Análisis de la vulnerabilidad
+### Análisis de la vulnerabilidad
 
 La vulnerabilidad principal de Jerry no se basa en un exploit complejo, sino en una mala configuración del servicio.
 
