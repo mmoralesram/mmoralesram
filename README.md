@@ -31,6 +31,7 @@ Actualmente preparándome para la certificación eJPT.
 - [HTB - Blue](./Writeups/HTB-Blue/README.md)
 - [HTB - Jerry](./Writeups/HTB-Jerry/README.md)
 - [HTB - Devel](./Writeups/HTB-Devel/README.md)
+- [HTB - Blocky](./Writeups/HTB-Blocky/README.md)
 
 ## 🎯 Enfoque actual
 
